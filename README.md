@@ -1,64 +1,81 @@
-Welcome to the AWS CodeStar sample web application
-==================================================
+[![Build Status](https://travis-ci.org/akveo/ngx-admin.svg?branch=master)](https://travis-ci.org/akveo/ngx-admin)
+[![Join the chat at https://gitter.im/ng2-admin/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ng2-admin/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Dependency Status](https://david-dm.org/akveo/ngx-admin/status.svg)](https://david-dm.org/akveo/ng2-admin)
 
-This sample code helps get you started with a simple Node.js web service deployed by AWS CloudFormation to AWS Lambda and Amazon API Gateway.
+[Who uses ngx-admin?](https://github.com/akveo/ngx-admin/issues/1645)
 
-What's Here
------------
+# Admin template based on Angular 6+, Bootstrap 4 and <a href="https://github.com/akveo/nebular">Nebular</a>
 
-This sample includes:
+### Three themes available:
 
-* README.md - this file
-* buildspec.yml - this file is used by AWS CodeBuild to package your
-  application for deployment to AWS Lambda
-* index.js - this file contains the sample Node.js code for the web service
-* template.yml - this file contains the AWS Serverless Application Model (AWS SAM) used
-  by AWS CloudFormation to deploy your application to AWS Lambda and Amazon API
-  Gateway.
-* tests/ - this directory contains unit tests for your application
+| Corporate Theme |
+|:---------------:|
+|<a target="_blank" href="http://akveo.com/ngx-admin/#/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=themes"><img src="https://i.imgur.com/axbJYdN.png"/></a>|
 
+| Cosmic Theme | Light Theme |
+|:------------:|:--------------:|
+|<a target="_blank" href="http://akveo.com/ngx-admin/#/pages/dashboard?theme=cosmic&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=themes"><img src="https://i.imgur.com/FgRZcqL.png"/></a>|<a target="_blank" href="http://akveo.com/ngx-admin/#/pages/dashboard?theme=default&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=themes"><img src="https://i.imgur.com/fozHlRJ.png"/></a>|
 
-What Do I Do Next?
-------------------
+### What's included:
 
-If you have checked out a local copy of your repository you can start making
-changes to the sample code.  We suggest making a small change to index.js first,
-so you can see how changes pushed to your project's repository are automatically
-picked up by your project pipeline and deployed to AWS Lambda and Amazon API Gateway.
-(You can watch the pipeline progress on your AWS CodeStar project dashboard.)
-Once you've seen how that works, start developing your own code, and have fun!
+- Angular 6+ & Typescript
+- Bootstrap 4+ & SCSS
+- Responsive layout
+- RTL support
+- High resolution
+- Flexibly configurable themes with **hot-reload** (2 themes included)
+- Authentication module with multiple providers
+- Lots of awesome features:
+  - Buttons
+  - Modals
+  - Popovers
+  - Icons
+  - Typography
+  - Animated searches
+  - Forms
+  - Tabs
+  - Notifications
+  - Tables
+  - Maps
+  - Charts
+  - Editors
+  
+And many more!
 
-To run your tests locally, go to the root directory of the
-sample code and run the `npm test` command, which
-AWS CodeBuild also runs through your `buildspec.yml` file.
+### Hot Themes Reload
 
-To test your new code during the release process, modify the existing tests or
-add tests to the tests directory. AWS CodeBuild will run the tests during the
-build stage of your project pipeline. You can find the test results
-in the AWS CodeBuild console.
+<a target="_blank" href="http://akveo.com/ngx-admin/#/pages/dashboard?utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=demo"><img src="https://i.imgur.com/XoJtfvK.gif"/></a>
 
-Learn more about AWS CodeBuild and how it builds and tests your application here:
-https://docs.aws.amazon.com/codebuild/latest/userguide/concepts.html
+### Demo
 
-Learn more about AWS Serverless Application Model (AWS SAM) and how it works here:
-https://github.com/awslabs/serverless-application-model/blob/master/HOWTO.md
+<a target="_blank" href="http://akveo.com/ngx-admin/">Live Demo</a>
 
-AWS Lambda Developer Guide:
-http://docs.aws.amazon.com/lambda/latest/dg/deploying-lambda-apps.html
+## Documentation
+This template is using [Nebular](https://github.com/akveo/nebular) modules set, [here you can find documentation and other useful articles](https://akveo.github.io/nebular/docs/installation/based-on-starter-kit-ngxadmin).
 
-Learn more about AWS CodeStar by reading the user guide, and post questions and
-comments about AWS CodeStar on our forum.
+### ng2-admin
+We will continue supporting [ng2-admin](https://github.com/akveo/ngx-admin/tree/ng2-admin) version, but if you are starting from scratch we recommend using `ngx-admin`. Unfortunately, there is no way to automatically update from ng2-admin to ngx-admin, but some parts (Nebular components) could be manually included.
 
-User Guide: http://docs.aws.amazon.com/codestar/latest/userguide/welcome.html
+### Empty starter kit
+Don't need all the pages and modules and just looking for an empty starter kit for your next project? Check out our [starter-kit branch](https://github.com/akveo/ngx-admin/tree/starter-kit).
 
-Forum: https://forums.aws.amazon.com/forum.jspa?forumID=248
+### AngularJS 1.x version
+Here you can find AngularJS 1.x based version: [Blur Admin](http://akveo.github.io/blur-admin/)
 
-What Should I Do Before Running My Project in Production?
-------------------
+## BrowserStack
+This project runs its tests on multiple desktop and mobile browsers using [BrowserStack](http://www.browserstack.com).
 
-AWS recommends you review the security best practices recommended by the framework
-author of your selected sample application before running it in production. You
-should also regularly review and apply any available patches or associated security
-advisories for dependencies used within your application.
+<img src="https://cloud.githubusercontent.com/assets/131406/22254249/534d889e-e254-11e6-8427-a759fb23b7bd.png" height="40" />
 
-Best Practices: https://docs.aws.amazon.com/codestar/latest/userguide/best-practices.html?icmpid=docs_acs_rm_sec
+### How can I support developers?
+- Star our GitHub repo :star:
+- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
+- Follow us on [Twitter](https://twitter.com/akveo_inc) :feet:
+- Like our page on [Facebook](https://www.facebook.com/akveo/) :thumbsup:
+
+### Looking for engineering services? 
+Visit [our homepage](http://akveo.com/) or simply leave us a message to [contact@akveo.com](mailto:contact@akveo.com). We will be happy to work with you!
+
+### From Akveo
+Made with :heart: by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news first!
+We're always happy to receive your feedback!
